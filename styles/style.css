@@ -95,9 +95,9 @@
   display: grid;
   grid-template-rows: repeat(3, 115px);
   gap: 20px;
-  padding-right: 40px;
+  padding-right: 30px;
   padding-left: 40px;
-  padding-top: 115px;
+  padding-top: 100px;
   color: white;
   font-weight: 700;
   font-size: 100px;
@@ -127,9 +127,9 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 25px;
-  margin-top: 10px;
-  padding-right: 45px;
-  padding-left: 45px;
+  margin-top: 45px;
+  padding-right: 50px;
+  padding-left: 43px;
 }
 
 .description__text {
@@ -212,7 +212,7 @@
 
 .card__title {
   z-index: 2;
-  padding: 40px;
+  padding: 30px;
   font-weight: 700;
   font-size: 22px;
   font-style: bold;
@@ -226,8 +226,8 @@
   z-index: 2;
   padding: 40px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 22px;
+  line-height: 105%;
   position:absolute;
   bottom: 0;
 }
@@ -262,7 +262,7 @@
   align-items: flex-start;
   gap: 40px;
   padding: 10px 5px;
-
+  margin-bottom: 170px;
 }
 
 .about__row {
