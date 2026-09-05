@@ -6,12 +6,13 @@
   justify-content: space-between;
   align-items: center;
   height: 290px;
+  padding: 0 50px;
   
 }
 
 .header__links-list {
   display: flex;
-  gap: 25px;
+  gap: 40px;
   list-style: circle;
 }
 
@@ -22,14 +23,14 @@
 
 .header__link {
   color: black;
-  font-size: 18px;
-  line-height: 1;
+  font-size: 22px;
+  line-height: 1.2;
   text-decoration: underline;
-  text-underline-offset: 1px;
+  text-underline-offset: 3px;
 }
 
 .header__link a {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .header__link__active {
@@ -42,6 +43,8 @@
 
 .header__logo-image {
   display: block;
+  width: 140px;
+  height:auto;
 }
 
 .header__address {
@@ -52,11 +55,11 @@
   align-items: flex-start;
   max-width: 240px;
   max-height: 98px;
-  padding-right: 50px;
+  padding-right: 0;
   color: black;
-  font-size: 18px;
-  line-height: 24px;
-  text-underline-offset: 1px;
+  font-size: 22px;
+  line-height: 28px;
+  text-underline-offset: 3px;
 }
 
 .header__address a {
@@ -94,16 +97,15 @@
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-rows: repeat(3, 115px);
+  grid-template-rows: repeat(3, 120px);
   gap: 20px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 100px 50px 0;
   color: white;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 140px;
   font-style: bold;
   line-height: 115%;
-  letter-spacing: 30%;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   
 }
@@ -126,7 +128,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 25px;
+  gap: 50px;
   margin-top: 100px;
   padding-right: 50px;
   padding-left: 50px;
@@ -142,12 +144,12 @@
   font-style: regular;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 90%;
+  word-spacing: 5px;
 }
 
 .button {
   border: 1px solid white;
-  padding: 10px 30px;
+  padding: 14px 40px;
   color: white;
   font-weight: 400;
   font-size: 22px;
@@ -159,18 +161,19 @@
 
 /* ЛОТЫ */
 .lots {
- max-width: 1000px;
+ max-width: 100%;
+ padding: 0 50px;
 }
 
 .lots__heading {
-  margin-left: 50px;
-  padding-bottom: 40px;
-  padding-left: 40px;
+ 
+  padding-bottom: 60px;
+ 
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   font-style: bold;
   line-height: 100%;
-  letter-spacing: 0;
+ 
   text-align: left;
   text-transform: uppercase;
 }
@@ -180,12 +183,12 @@
   flex-wrap: nowrap;
   grid-template-columns: repeat(3,1fr);
   justify-content: stretch;
-  gap: 25px;
-  margin-left: 25px;
+  gap: 40px;
+
 }
 
 .lots__card-list-item {
-  min-height: 300px;
+  min-height: 450px;
   list-style: none;
 }
 
@@ -202,7 +205,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 25px;
-  width: 335px;
+  width: 100%;
   height: 100%;
   
   color: white;
@@ -228,7 +231,7 @@
   z-index: 2;
   padding: 40px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 120%;
 }
 
@@ -247,10 +250,9 @@
 .lots__look-more-link {
   display: flex;
   margin-bottom: 120px;
-  margin-left: 60px;
-  padding: 30px 40px;
+  padding: 30px 0;
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   text-align: start;
   text-decoration: underline;
   text-underline-offset: 1px;
@@ -260,7 +262,7 @@
 .about {
   display: flex;
   align-items: flex-start;
-  gap: 60px;
+  gap: 100px;
   padding: 80px 40px;
 
 }
@@ -278,7 +280,6 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin-left: 60px;
   border-radius: 50%;
   background-color: black;
   
@@ -295,9 +296,8 @@
 .about__title {
   margin-top: 100px;
   margin-bottom: 100px;
-  padding-left: 72px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 100%;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -307,13 +307,12 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-right: 50px;
-  padding-left:72px;
+
 }
 
 .about__text p {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.6;
   
 }
 
