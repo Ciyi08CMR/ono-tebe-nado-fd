@@ -167,7 +167,7 @@
 }
 
 .lots__heading {
-  margin-left: 50px;
+  margin-left: 60px;
   padding-bottom: 27px;
   font-weight: 700;
   font-size: 40px;
@@ -249,7 +249,7 @@
 
 .lots__look-more-link {
   display: flex;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   margin-left: 40px;
   padding: 30px 20px;
   color: black;
@@ -265,8 +265,9 @@
   align-items: flex-start;
   gap: 40px;
   padding: 35px 0;
-  margin-bottom: 120px;
+  margin-bottom: 130px;
   margin-left: 25px;
+  margin-right: 30px;
 }
 
 .about__row {
