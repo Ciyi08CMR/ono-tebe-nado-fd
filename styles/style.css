@@ -5,8 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
-
-  margin: 95px 50px;
+  margin: 95px 50px 100px;
 }
 
 .header__links-list {
@@ -22,7 +21,7 @@
 
 .header__link {
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -53,10 +52,10 @@
   align-items: flex-start;
   max-width: 240px;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   text-underline-offset: 3px;
-  margin-right: 50px;
+  padding-right: 10px;
 }
 
 .header__address a {
@@ -67,7 +66,6 @@
 .address__text {
   font-style: normal;
   text-decoration: none;
-  
 }
 
 /* ОБЛОЖКА */
@@ -82,6 +80,7 @@
   background-position: center;
   background-size: cover;
   margin: 0 0 180px;
+  letter-spacing: 30%;
 }
 
 .overlay {
@@ -96,16 +95,15 @@
   z-index: 2;
   display: grid;
   gap: 20px;
-  padding-right: 30px;
-  padding-left: 60px;
-  padding-top: 160px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 165px;
   color: white;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
-  letter-spacing: 30%;
   text-transform: uppercase;
-  
+  min-width: 286px;
+  letter-spacing: 30px;
 }
 
 .aligned-text_left {
