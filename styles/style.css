@@ -265,8 +265,8 @@
   align-items: flex-start;
   gap: 40px;
   padding: 35px 0;
-  margin-bottom: 170px;
-  margin-left: 15px;
+  margin-bottom: 120px;
+  margin-left: 25px;
 }
 
 .about__row {
@@ -302,7 +302,7 @@
 .about__title {
   margin-top: 100px;
   margin-bottom: 100px;
-  padding-left: 67px;
+  padding-left: 30px;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -313,7 +313,7 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  padding-left: 72px;
+  padding-left: 30px;
   flex: 1;
   
 }
