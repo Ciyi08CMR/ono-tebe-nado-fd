@@ -5,7 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
-  margin: 115px 50px 100px;
+  margin: 95px 50px 100px;
 }
 
 .header__links-list {
