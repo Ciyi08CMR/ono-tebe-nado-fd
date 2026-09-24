@@ -5,7 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
-  margin: 95px 50px 100px;
+  margin: 92px 50px 96px;
 }
 
 .header__links-list {
@@ -37,7 +37,9 @@
 }
 
 .header__logo {
-  display: block;
+  display: flex;
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
